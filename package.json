@@ -5,6 +5,6 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "serve": "node -r esm server.js"
+    "start": "node -r esm server.js"
   }
 }
