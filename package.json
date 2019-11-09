@@ -1,10 +1,12 @@
 {
   "dependencies": {
-    "esm": "^3.2.25",
     "expo-server-sdk": "^3.4.0",
     "express": "^4.17.1"
   },
+  "engines": {
+    "node": "8.x"
+  },
   "scripts": {
-    "start": "node -r esm server.js"
+    "start": "node server.js"
   }
 }
