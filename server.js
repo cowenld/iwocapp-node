@@ -8,7 +8,7 @@ const MESSAGE_ENPOINT = 'http://generated-ngrok-url/message';
 
 let expo = new Expo();
 let savedPushTokens = [];
-const PORT_NUMBER = 3000;
+const PORT_NUMBER = (process.env.PORT || 3000);
 
 // Express
 const app = express();
